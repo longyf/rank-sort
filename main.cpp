@@ -1,6 +1,7 @@
 #include <iostream>
 #include "myrank.h"
 #include "rankSort.h"
+#include "rankSort_2.h"
 #include "output.h"
 using namespace std;
 
@@ -14,7 +15,10 @@ int main() {
 	output(b,length);
 
 	//rank-sort
-	rankSort(a,length,b);
+//	rankSort(a,length,b);
+//	output(a,length);
+
+	rankSort_2(a,length,b);
 	output(a,length);
 	
 	return 0;
